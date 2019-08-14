@@ -62,8 +62,8 @@
         <version>3.3</version>
         <configuration>
           <encoding>UTF-8</encoding>
-          <source>1.5</source>
-          <target>1.5</target>
+          <source>12</source>
+          <target>12</target>
         </configuration>
       </plugin>
       <plugin>
