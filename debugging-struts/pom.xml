@@ -5,15 +5,15 @@
   <parent>
     <groupId>org.apache.struts</groupId>
     <artifactId>struts-examples</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
   </parent>
 
   <artifactId>debugging-struts</artifactId>
-
   <name>Debugging Struts</name>
-
   <description>Exception handling example application for the Struts 2 getting started tutorials</description>
+
   <packaging>war</packaging>
+
   <dependencies>
   		<dependency>
 			<groupId>org.apache.struts</groupId>
@@ -31,7 +31,7 @@
         <version>${jetty-plugin.version}</version>
         <configuration>
           <webApp>
-            <contextPath>/${artifactId}</contextPath>
+            <contextPath>/${project.artifactId}</contextPath>
           </webApp>
           <stopKey>CTRL+C</stopKey>
           <stopPort>8999</stopPort>
